@@ -1,35 +1,592 @@
 <!DOCTYPE html>
-<head>
-	 <meta charset="utf-8">
-  	 <link rel="stylesheet" type="text/css" href="styles.css">
-	  	 <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<html lang="en" class="no-js">
+   
+    <head>
+        <meta charset="utf-8"/>
+        <title>Manuel Flores Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="FlameOnePage freebie theme for web startups by FairTech SEO." name="description"/>
+        <meta content="FairTech" name="author"/>
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+   
+  
+    <body id="body" data-spy="scroll" data-target=".header">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body>
-	<div id="head" class="topnav">
-    <ul class="nav nav-pills">
-	  <li class="active"><a href="index.html">Home</a></li>
-	  <li><a href="about.html">About</a></li>
-	  <li><a href="contact.html">Contact</a></li>
-	</ul>
-	</div>	
-	<div>
-	<h5>Welcome to my portfolio</h5>
-	</div>
-	<footer>
-	        <div style="position: absolute;" id="foot" class="footer-copyright">
-	         	<div class="container">
-	          		PK@2019
-	          	</div>
-	        </div>
-      	</footer>
+          <header class="header navbar-fixed-top">
+              <nav class="navbar" role="navigation">
+                <div class="container">
+                      <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
 
-</body>
+                          
+                    </div>
 
+                    <div class="collapse navbar-collapse nav-collapse">
+					
+					<!--div class="language-switcher">
+					  <ul class="nav-lang">
+                        <li><a class="active" href="#">EN</a></li>
+					    <li><a href="#">DE</a></li>
+						<li><a href="#">FR</a></li>
+					  </ul>
+					</div---> 
+					
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About Me</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Portfolio</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#certifications">Certifications</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+			</header>
+       
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title">Student</h1>
+                                <p class="color-white">Computer Science at Tecnológico de Monterrey <br/> I am currently at my 5th semester, 55% of my curricum.</p>
+                            </div>
+                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">More About Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">Developer</h2>
+                                <p class="color-white">Pro-Karma, TI-Mobile, LegalexGS<br/> I have worked at multiple companies as a developer, focusing mainly on web development and Python GA</p>
+                            </div>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">More about my Work Experience</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <h1 style="text-align: center; padding-top: 10px;">Education</h1>
+            <div class="content-lg container" style="padding-top: 0%;">
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                        <div class="margin-b-60">
+                            <h2>Computer Science Bachelor</h2>
+                            <p>Instituto Tecnológico de Estudios Superiores de Monterrey Campus Querétaro, (55% complete)</p>
+                        </div>
+                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/tec-de-monterrey.svg" style="width: 400px;" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-b-60">
+                          <h2>AP Computer Science High School </h2>
+                          <p> Also graduated with honors in Entrepreneurial Studies, PreCalc from Culver Military Academy</p>  
+                        </div>
+						 <img class="full-width img-responsive wow fadeInUp" src="img/500x500/CULVERSEAL.jpeg" alt="Portfolio Image" style="width: 400px;" data-wow-duration=".3" data-wow-delay=".3s">
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-t-60 margin-b-60">
+                            <h2>Military NCO Leadership School</h2>
+                            <p>1st Lieutenant overall rank, positions held: Executive Officer, Squadron Supply Officer, First Sergeant, Supply Officer.</p>
+                        </div>
+                        <img class="full-width img-responsive wow fadeInUp" src="img/500x500/CMASEAL.jpg" alt="Portfolio Image" style="width: 400px;"  data-wow-duration=".3" data-wow-delay=".4s">
+                    </div>
+				</div>
+                <!-- End Masonry Grid -->
+            </div>
+            
+            <div class="bg-color-sky-light">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 md-margin-b-60">
+                            <div class="margin-t-50 margin-b-30">
+                                <h2>Why Me?</h2>
+                                <p>To meet the challenges of a competitive working environment in the field of Information Technology in a software developer position as full stack development, encompassing the structure and leadership aptitudes acquired during formation in a Military Based System for an efficient teamwork based on respect, efficiency, and mutual effective cooperation with superiors and peers.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-7 col-md-offset-2">
+                            <!-- Accordion -->
+                            <div class="accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Technical skills
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                Python, Java, Javascript, HTML, CSS, PHP, ReactJS, Spring.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Soft Skills
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                Leadership, Empathy, Communication, Teamwork, Problem Solving, Fast Learner, Creativity, Accountability. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- End Accodrion -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+
+        
+
+        <!-- Pricing -->
+        <div id="work">
+            <h1 style="text-align: center; padding-top: 10px;">Work Experience</h1>
+            <div>
+                <div class="content-lg container" style="padding-top: 0%;">
+                    <div class="row row-space-1">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <!-- Pricing -->
+
+                            <div class="pricing">
+                                <div class="row">
+                                    <div class="margin-b-30" style="width: 40%; float: left;">
+                                        <img style="width: 200px;" class="img-responsive" src="img/timobile.jpeg" alt="Timobile">
+                                    </div>
+                                    <div class="margin-b-30" style="width: 55%; float: right; padding-left: 5%;">
+                                        <h2>TIMobile <span>MX</span></h2>
+                                        <h5>May 2019- Aug 2019</h5>
+                                        <h5>Genetic Algorithm Dev</h5>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <br>
+                                <p>Responsible for the redesign of the company’s multi truck delivery routing algorithm, the software was eventually implemented and directly benefited the customer’s time management, optimization of resources and overall spending and unnecessary pollution of delivery routes. The algorithm developed employed Genetic Algorithm practices for fast, reliable, and optimized generation of routes in real time. During the stay at this company a second novel time-efficient personal algorithm approach was developed which implementation was unfortunately put on hold due to the cancellation of a public bid which funded the program.</p>
+                                </div>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <!-- Pricing -->
+
+                            <div class="pricing">
+                                <div class="row">
+                                    <div class="margin-b-30" style="width: 40%; float: left;">
+                                        <img style="width: 200px; padding-top: 25%;" class="img-responsive" src="img/legalex.png" alt="Timobile">
+                                    </div>
+                                    <div class="margin-b-30" style="width: 55%; float: right; padding-left: 5%;">
+                                        <h2>Legalex <span>MX</span></h2>
+                                        <h5>Mar 2018- Apr 2018</h5>
+                                        <h5>Front-End Web Dev</h5>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <br>
+                                <p>Developed front end views for home and login pages in HESTIA project. Responsibilities encompassed:
+                                    Development and implementation of Login and Register modules as well as minor RBAC functionalities for system administrators.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <!-- Pricing -->
+
+                            <div class="pricing">
+                                <div class="row">
+                                    <div class="margin-b-30" style="width: 40%; float: left;">
+                                        <img  class="img-responsive" src="img/rubin.jpg" alt="Timobile">
+                                    </div>
+                                    <div class="margin-b-30" style="width: 55%; float: right; padding-left: 5%;">
+                                        <h2>Rubin <span>US</span></h2>
+                                        <h5>May 2019- Aug 2019</h5>
+                                        <h5>Operations Manager</h5>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <br>
+                                <p>Coordinated inventory management systems for the café, as well as general ordering, operations team supervision and event management. Responsibilities included pre-season product development, overall upkeep of inventory and optimization of tracking manual systems, supervision and management of operations team as well as coordination with HR for new product implementations and Customer Service Employees-Management cohesion and communication. </p>
+                                </div>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Pricing -->
+        <!-- Latest Products -->
+        <div id="products">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-12">
+                        <h2 style="text-align: center;">Recent Projects</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-6 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/web.jpg" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#">Web</a></h4>
+                        <p>Projects include both Front-End and Back-End projects, as well as full stack development.</p>
+                        <ul class="list-unstyled pricing-list margin-b-50">
+                            <li class="pricing-list-item">Back-End Servlets</li>
+                            <li class="pricing-list-item">Habeats Diet Managment System</li>
+                        </ul>
+                        
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-6 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/python.jpeg" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#">Python and GA</a> </h4>
+                        <p>Projects mainly focused in MTSP and TSP solutions. Developed with Genetic Algorithms for real time optimization of truck routes.</p>
+                        <ul class="list-unstyled pricing-list margin-b-50">
+                            <li class="pricing-list-item">Multi Truck Routing GA</li>
+                            <li class="pricing-list-item">FastRouting</li>
+                        </ul>
+                    </div>
+
+                    <!-- End Latest Products -->
+
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="img/habeatsmain.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Habeats Global</h3>
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>Habets Global specializes in custom-made meal planning and delivery, the company used to generate individual meals on a daily basis by hand as well as the allergy verifications which in turn consumed large amounts of work hours every day.</p>
+                                                <p>This project consisted in the development of administration system for clients, diets, meals, ingredients as well as a autamated assigning of individual meals and allergy cross checking</p>
+                                                <ul class="list-inline work-popup-tag">
+                                                    <li class="work-popup-tag-item">SQL,</li>
+                                                    <li class="work-popup-tag-item">Materialize,</li>
+                                                    <li class="work-popup-tag-item">PHP,</li>
+                                                    <li class="work-popup-tag-item">Web (Html,Css,Js)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5"><strong>Year:</strong> 2019</p>
+                                                <p class="margin-b-5"><strong>Type of project:</strong> Group developing</p>
+                                                <p class="margin-b-5"><strong>Responsibilities:</strong> Full-Stack Dev</p>
+                                                <p class="margin-b-5"><strong>Hosting:</strong> www.habeatsglobal.com</p>
+                                                <p class="margin-b-5"><strong><a href="https://github.com/A01702321/Solware">GitHub</a></strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="img/eclipse.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Java Servlets</h3>
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>As a trainee for ProKarma global I have developed multiple projects following a servlet architecture using Spring and SpringBoot for the backend. </p>
+                                                <p>The two main projects consists in a session management API with Java Web Token authentication as well as an inventory management api for an E-commerce.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5"><strong>Year:</strong> 2019-2020</p>
+                                                <p class="margin-b-5"><strong>Type of project:</strong>Individual</p>
+                                                <p class="margin-b-5"><strong>Responsibilities:</strong> Back End developer</p>
+                                                <p class="margin-b-5"><strong><a href="https://github.com/A01702321/Solware">Repository</a></strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="img/mainGA.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">Multi Truck Routing System</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>TI-Mobile had a network of sensors which determined the level of ice in OXXO's to monitor the inventory levels of ice. I was tasked with creating a backend routing system for the delivery trucks in order to ensure the most optimal routes in real time.</p>
+                                                <p>The system was developed using Genetic Algorithm techniques and was succesfully implemented in the nationwide system.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p class="margin-b-5"><strong>Year:</strong> 2019</p>
+                                                <p class="margin-b-5"><strong>Type of project:</strong> Individual</p>
+                                                <p class="margin-b-5"><strong>Responsibilities:</strong> Development of entire system</p>
+                                                <p class="margin-b-5"><strong><a href="https://github.com/A01702321/Solware">Repository</a></strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work work-popup-trigger">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); height: 150px;" src="img/SingleTruck.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-popup-overlay">
+                                <div class="work-popup-content">
+                                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                    <div class="margin-b-30">
+                                        <h3 class="margin-b-5">FastRouting</h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
+                                            <div class="margin-t-10 sm-margin-t-0">
+                                                <p>This algorithm was developed individually and was succesfully integrated into a conventional GA system for multi truck routing and resulted in a significant enhancement in the optimization of the routes. The algoritm is visible in the mainGA project under the name: "untangle" this approach was also tried as a replacment for the GA algorithm but was halted due to a cancelation of the bid which funded it's development. It is still under further improvements and corrections but at an unfinished stage it has already proven it's potential for optimzation.</p>
+                                                
+                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Latest Products -->
+
+        <!-- Certifications -->
+        <div id="certifications">
+            <div class="section-seperator">
+                <div class="content-md container">
+                    
+                    <div class="row margin-b-40">
+                        <div class="col-sm-12">
+                            <h2 style="text-align: center;">Certifications</h2>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <!-- Masonry Grid -->
+                    <div class="masonry-grid row" >
+
+
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive center" src="img/cisco.jpeg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Cisco CCNA 1</h3>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>This first course in the 3-course CCNA series introduces architectures, models, protocols, and networking elements.</p>
+                                                    
+                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        
+						<div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+						
+                    </div>
+                    <!-- End Masonry Grid -->
+                </div>
+            </div>
+            
+            
+           
+        </div>
+        <!-- End Work -->
+
+        
+        <!-- End Service -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <!-- Contact List -->
+            <div class="section-seperator">
+                <div class="content-lg container">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-12">
+                            <h2 style="text-align: center;">Contact Information</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <!-- Contact List -->
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <div class="row margin-l-0">
+                                <div style="width: 40%; float: left;">
+                                    <img class="img-responsive" src="img/ProfilePic.png" alt="My Image">
+                                </div>
+                                <div style="width: 55%; float: right; padding-left: 5%;">
+                                    <h3>Manuel Flores Ramirez</h3>
+                                    <ul class="list-unstyled contact-list">
+                                        <li><i class="margin-r-10 color-base icon-call-out"></i> +52 1 55 4088 7480</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i>manuelfloresramirez@outlook.com</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            
+                        
+                        </div>
+                        <!-- End Contact List -->
+
+                        
+                       
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Contact List -->
+            
+           
+            
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                   
+                    <div class="col-xs-12 text-left">
+                        <p class="margin-b-0"> Theme Powered by: <a class="fweight-700" href="http://ft-seo.ch/">FairTech Studio</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
